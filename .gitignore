@@ -1,0 +1,32 @@
+# Local build products
+/accident_sensor
+/witness_sensor
+/test_collision_capture
+*.o
+*.a
+*.so
+/build/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Per-vehicle calibration and captured experiment data
+/config.json
+/config.json.tmp
+/collision_captures/
+*.log
+
+# GPIO runtime pipes, editor files and OS metadata
+.lgd-nfy*
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local credentials are not repository content
+.env
+.env.*
